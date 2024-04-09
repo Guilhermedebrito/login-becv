@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background-image: url(mídia/bg-image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+section>h1 {
+    color: #ffffff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+section>h2 {
+    color: #ffffff;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+    line-height: 40px;
+
+}
+
+#form {
+    background-color: #ffffff38;
+    width: 800px;
+    margin: auto;
+    height: 400px;
+    display: flex;
+}
+
+.line1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.line2 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#name {
+    margin-left: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+
+#email {
+    margin-left: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    
+    
+}
+
+#employees {
+    color: black;
+    margin-left: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#subject {
+    color: black;
+    margin-left: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+}
+
